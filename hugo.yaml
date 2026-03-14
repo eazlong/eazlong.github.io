@@ -1,6 +1,6 @@
-baseURL: "https://yourname.github.io/"
+baseURL: "https://eazlong.github.io/"
 languageCode: "zh-cn"
-title: "Your Name"
+title: "Eazlong"
 theme: "hugo-theme-stack"
 
 # 默认内容语言
