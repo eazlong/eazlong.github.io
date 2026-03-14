@@ -40,7 +40,7 @@ params:
   sidebar:
     emoji: 🚀
     subtitle: "Full Stack Developer · 技术探索者"
-    avatar: "/img/avatar.svg"
+    avatar: "img/avatar.svg"
 
   article:
     math: false
