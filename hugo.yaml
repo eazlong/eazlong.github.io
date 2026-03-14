@@ -1,0 +1,154 @@
+baseURL: "https://yourname.github.io/"
+languageCode: "zh-cn"
+title: "Your Name"
+theme: "hugo-theme-stack"
+
+# 默认内容语言
+defaultContentLanguage: zh-cn
+hasCJKLanguage: true
+
+# 分页
+paginate: 5
+
+# 启用 Git 信息
+enableGitInfo: false
+
+# 时区
+timeZone: "Asia/Shanghai"
+
+# 输出格式
+outputs:
+  home:
+    - HTML
+    - RSS
+
+params:
+  mainSections:
+    - post
+  featuredImageField: image
+  rssFullContent: true
+  favicon: /img/avatar.png
+
+  footer:
+    since: 2024
+    customText: "用代码构建世界 ☕"
+
+  dateFormat:
+    published: 2006-01-02
+    lastUpdated: 2006-01-02 15:04 MST
+
+  sidebar:
+    emoji: 🚀
+    subtitle: "Full Stack Developer · 技术探索者"
+    avatar: "/img/avatar.png"
+
+  article:
+    math: false
+    toc: true
+    readingTime: true
+    license:
+      enabled: true
+      default: Licensed under CC BY-NC-SA 4.0
+
+  comments:
+    enabled: false
+
+  widgets:
+    homepage:
+      - type: search
+      - type: archives
+        params:
+          limit: 5
+      - type: categories
+        params:
+          limit: 10
+      - type: tag-cloud
+        params:
+          limit: 10
+    page:
+      - type: toc
+
+  opengraph:
+    twitter:
+      site: ""
+      card: summary_large_image
+
+  defaultImage:
+    opengraph:
+      enabled: false
+      local: false
+      src: ""
+
+  colorScheme:
+    # 跟随系统切换 light/dark
+    toggle: true
+    default: auto
+
+  imageProcessing:
+    cover:
+      enabled: true
+    content:
+      enabled: true
+
+# 菜单配置
+menu:
+  main:
+    - identifier: home
+      name: 首页
+      url: /
+      weight: 1
+      params:
+        icon: home
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 2
+      params:
+        icon: archives
+    - identifier: projects
+      name: 项目
+      url: /projects/
+      weight: 3
+      params:
+        icon: archives
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 4
+      params:
+        icon: user
+
+  social:
+    - identifier: github
+      name: GitHub
+      url: "https://github.com/yourname"
+      params:
+        icon: brand-github
+    - identifier: twitter
+      name: Twitter
+      url: "https://twitter.com/yourname"
+      params:
+        icon: brand-twitter
+
+# 代码高亮
+markup:
+  highlight:
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: dracula
+  goldmark:
+    renderer:
+      unsafe: true
+
+# 相关文章
+related:
+  includeNewer: true
+  threshold: 60
+  toLower: false
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 200
