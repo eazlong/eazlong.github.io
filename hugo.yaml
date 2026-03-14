@@ -27,7 +27,7 @@ params:
     - post
   featuredImageField: image
   rssFullContent: true
-  favicon: /img/avatar.png
+  favicon: /img/avatar.svg
 
   footer:
     since: 2024
@@ -40,7 +40,7 @@ params:
   sidebar:
     emoji: 🚀
     subtitle: "Full Stack Developer · 技术探索者"
-    avatar: "/img/avatar.png"
+    avatar: "/img/avatar.svg"
 
   article:
     math: false
