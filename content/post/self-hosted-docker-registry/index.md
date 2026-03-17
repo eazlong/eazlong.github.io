@@ -1,7 +1,7 @@
 ---
 title: "自建 Docker 私有镜像仓库指南"
 description: "使用官方 Registry 镜像快速搭建 Docker 私有仓库，配置镜像加速和客户端访问，实现内网环境下的镜像自主管理。"
-date: 2026-03-17
+date: 2020-08-13
 categories:
     - 技术文章
 tags:
