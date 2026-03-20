@@ -1,7 +1,7 @@
 ---
 title: "C++ std::bind 与 std::function 用法详解"
 description: "深入理解 C++ 中 std::bind 和 std::function 的使用方法，包括绑定成员函数、自由函数、参数占位符以及实际应用场景。"
-date: 2024-03-18
+date: 2020-03-18
 categories:
     - 技术文章
 tags:

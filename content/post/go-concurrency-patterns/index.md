@@ -1,7 +1,7 @@
 ---
 title: "Go 并发模式：从 Goroutine 到 Channel 的实践指南"
 description: "深入理解 Go 语言并发原语，通过实际案例掌握常用并发模式"
-date: 2024-03-15
+date: 2020-03-15
 lastmod: 2024-03-15
 image: "cover.jpg"
 categories:

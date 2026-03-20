@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes 常见问题排查与环境初始化"
 description: "记录 Kubernetes 集群搭建过程中的常见报错及解决方案，包括 API Server 连接失败、Swap 禁用、containerd 配置、kubeadm 初始化以及 NFS 和 MinIO 的部署配置。"
-date: 2024-03-17
+date: 2020-03-17
 categories:
     - 技术文章
 tags:

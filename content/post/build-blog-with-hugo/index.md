@@ -1,7 +1,7 @@
 ---
 title: "用 Hugo + Stack 主题搭建个人博客"
 description: "从零开始，一步步构建一个支持自动明暗模式、SEO 友好的个人博客"
-date: 2024-02-20
+date: 2020-02-20
 lastmod: 2024-02-20
 categories:
     - 工具与效率
